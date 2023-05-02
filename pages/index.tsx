@@ -1,11 +1,11 @@
+import Conclusion from "@/components/Conclusion";
+import Hero from "@/components/Hero";
+import Introduction from "@/components/Introduction";
+import ProgressBar from "@/components/ProgressBar";
+import Timeline from "@/components/Timeline";
+import TimelineElement from "@/components/TimelineElement";
 import { Source_Code_Pro } from "next/font/google";
-import Hero from "./components/Hero";
-import TimelineElement from "./components/TimelineElement";
-import Timeline from "./components/Timeline";
-import ProgressBar from "./components/ProgressBar";
 import Head from "next/head";
-import Introduction from "./components/Introduction";
-import Conclusion from "./components/Conclusion";
 
 const source = Source_Code_Pro({ subsets: ["latin"] });
 
