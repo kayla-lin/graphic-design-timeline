@@ -65,8 +65,9 @@ const Conclusion = () => {
             The standard for design in the digital world is to look similar, due
             to the nature of interfaces needing to be intuitive. This trend is
             encapsulated by the popularization of Google&apos;s Material Design.
-            However, as more designs become similar, it backfires like with the
-            growing hate for Corporate Memphis style.
+            However, this intuitive design trend comes as a cost, and may be
+            criticize for overuse like with the growing hate for Corporate
+            Memphis.
           </p>
           <Link
             target="_blank"
