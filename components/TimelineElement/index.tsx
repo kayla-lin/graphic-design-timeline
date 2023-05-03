@@ -31,7 +31,7 @@ const TimelineElement: FC<Props> = ({
   const squareVariants = {
     visible: {
       opacity: 1,
-      left: isEven ? 15 : -15,
+      left: isEven ? 0 : 0,
       transition: { duration: 0.5 },
     },
     hidden: { opacity: 0, left: isEven ? 100 : -100 },
@@ -49,8 +49,8 @@ const TimelineElement: FC<Props> = ({
       animate={controls}
       initial="hidden"
       variants={squareVariants}
-      className={`w-1/2 relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
-        isEven ? "self-end left-5" : "self-start right-5"
+      className={`overflow-hidden m-5 lg:m-0 lg:w-1/2 relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
+        isEven ? "self-start lg:self-end lg:-mr-5" : "self-start lg:-ml-5"
       }`}
     >
       <span className="text-green-300">{date}</span>

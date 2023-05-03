@@ -12,7 +12,7 @@ const Timeline: FC<Props> = ({ children }) => {
       <svg
         height="210"
         width="500"
-        className="right-1/2 w-0.5 h-full absolute z-20"
+        className="right-1/2 w-0.5 h-full absolute z-20 hidden lg:block"
         preserveAspectRatio="none"
       >
         <line

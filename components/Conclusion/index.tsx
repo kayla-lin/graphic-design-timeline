@@ -1,16 +1,17 @@
 import React from "react";
 import RevealDiv from "../RevealDiv";
 import Sign from "./Sign";
+import Link from "next/link";
 
 const Conclusion = () => {
   return (
     <RevealDiv>
-      <section className="container mx-auto text-white py-32 flex justify-center items-center gap-10">
+      <section className="container mx-auto text-white py-16 lg:py-32 flex flex-col lg:flex-row justify-center items-center gap-10 break-normal p-10">
         <div className="flex flex-col gap-5">
           <p>
             The digital revolution is a period of{" "}
             <strong className="text-green-300">
-              rapid technological growth and rapid spread of information
+              rapid technological growth and rapid spread of information.
             </strong>{" "}
             Intuitive design was needed to make the transition to the digital
             world global.
@@ -18,7 +19,7 @@ const Conclusion = () => {
           <p>
             Personal computers made information and new graphical mediums.{" "}
             <strong className="text-green-300">
-              People could and learn experiment with graphic design at home
+              People could learn experiment with graphic design at home
             </strong>
             . Artists used digital art programs, like Adobe Suite, as a serious
             medium for design. The new nature of the internet created a
@@ -46,21 +47,29 @@ const Conclusion = () => {
             design trend was steered towards the opposite.{" "}
             <strong className="text-green-300">
               Flat design was the new trend, which favored flat, minimalistic
-              Swiss Modern like design
+              Swiss Modern-like design
             </strong>
             . Skeuomorphism became cluttered and unnecessary in a world that was
             already familiar with computer interfaces.
           </p>
           <p>
             However, design still benefited from the intuitiveness of
-            skeuomorphism--and now the present-day design trend is flat design
-            2.0 is{" "}
+            skeuomorphism--and now the present-day design trend, is flat design
+            2.0, which is{" "}
             <strong className="text-green-300">
               a mix of skeuomorphism and flat design
             </strong>
             .
           </p>
+          <Link
+            target="_blank"
+            href="/pdf/citations.pdf"
+            className="text-green-300 underline hover:text-green-500"
+          >
+            Read Citations
+          </Link>
         </div>
+
         <Sign />
       </section>
     </RevealDiv>

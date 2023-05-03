@@ -137,8 +137,6 @@ const Cartwheel = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      console.log(currentFrame);
-      console.log("frame");
       if (currentFrame === frames.length - 1) {
         setCurrentFrame(0);
       } else {
@@ -151,7 +149,7 @@ const Cartwheel = () => {
     <span
       style={{ left: `${currentFrame * 5}%` }}
       dangerouslySetInnerHTML={{ __html: frames[currentFrame] }}
-      className="absolute bottom-0 left-0 text-9xl text-green-300"
+      className="absolute bottom-0 left-0 text-2xl md:text-5xl lg:text-9xl text-green-300"
     ></span>
   );
 };

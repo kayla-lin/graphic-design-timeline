@@ -5,8 +5,7 @@ import RevealDiv from "../RevealDiv";
 const Introduction = () => {
   return (
     <RevealDiv>
-      <section className="container mx-auto text-white py-32 flex justify-center items-center gap-10">
-        <Sign />
+      <section className="container mx-auto text-white py-16 lg:py-32 flex flex-col lg:flex-row justify-center items-center gap-10 break-normal p-10">
         <p>
           The digital revolution is a period of{" "}
           <strong className="text-green-300">
@@ -22,6 +21,7 @@ const Introduction = () => {
           </strong>{" "}
           onto the latest technologies.
         </p>
+        <Sign />
       </section>
     </RevealDiv>
   );

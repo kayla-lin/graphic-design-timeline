@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Graphic Design Timeline | Kayla Lin</title>
       </Head>
-      <main className={`${source.className} bg-slate-950 pb-64`}>
+      <main className={`${source.className} bg-slate-950 pb-64 md:pb-20`}>
         <ProgressBar />
         <Hero />
         <Introduction />
@@ -26,7 +26,7 @@ export default function Home() {
             img="skeumorphic.png"
             desc={[
               "Skeuomorphism involves creating a design that mimics its real life counterpart. For example, an icon of a trash can for deleting files, or a floppy disk for the save functionality. Skeuomorphic designs often had beveled edges, gradients, and reflections.",
-              "It is a useful concept for design because of its design affordance: a shape that suggests its use. Since graphical interfaces on the computer were new. Computer interfaces would be much more intuitive with skeuomorphism, since it geared users with background knowledge on what the functionality might be.",
+              "It is a useful concept for design because of its design affordance: a shape that suggests its use, since graphical interfaces on the computer were new. Computer interfaces would be much more intuitive with skeuomorphism, since it geared users with background knowledge on what the functionality might be.",
             ]}
           />
           <TimelineElement
@@ -104,7 +104,7 @@ export default function Home() {
             date="1992"
             img="netscape.jpeg"
             desc={[
-              "At the University of Illinois, a group of students and researchers created a browser called Mosaic, later known as Netscape. This offered a user friendly way to access the website. Users could see words and computers on the same page, and users could navigate the web with scrollbars and hyperlinks.",
+              "At the University of Illinois, a group of students and researchers created a browser called Mosaic, later known as Netscape. This offered a user friendly way to access the website. Users could see words and images on the same page, and users could navigate the web with scrollbars and hyperlinks.",
               "Later, Congress allowed the web to be used commercially. Companies and entrepreneurs rushed to set up websites to sell goods and services. Thus, this created a shift in the internet towards marketing to consumers.",
             ]}
           />
@@ -152,7 +152,7 @@ export default function Home() {
             img="iphone.webp"
             desc={[
               "The iPhone revolutionized communication. It changed the way people used phones as devices. People were able to do more than just call or text, and it had incredible portability, being handheld. The interface was sleek, intuitive, and touchscreen. Competing phone companies rushed to create their own touch screen phone.",
-              "With the iPhone, the App Store was released which is arguably one of the most significant products in personal computing.  The App Store changed the way software was designed, used, and distributed. The App Store was a hub of applications that any users download applications from. Additionally, any user could upload their own applications. Thus, growing a new field of software development, and interface design that targets mobile applications. There was a need for developers who just focused on developing for mobile platforms. There was also a need for designers to design mobile interfaces and application icons.",
+              "With the iPhone, the App Store was released which is arguably one of the most significant products in personal computing.  The App Store changed the way software was designed, used, and distributed. The App Store was a hub of applications that any user can download applications from. Additionally, any user could upload their own applications. Thus, growing a new field of software development, and interface design that targets mobile applications. There was a need for developers who just focused on developing for mobile platforms. There was also a need for designers to design mobile interfaces and application icons.",
             ]}
           />
           <TimelineElement
@@ -169,7 +169,7 @@ export default function Home() {
             date="2013"
             img="isometric.webp"
             desc={[
-              "Users benefitted from the shift to flat designs, but web designers and UX researchers found that flat design had user experience issues. One example of an issue of that some users may not click a flat button if they do not recognize it as clickable. Flat design evolved into Flat Design 2.0. Instead of completely flat logos, designers started to add highlights, gradients, and drop shadows to add depth and direction, while maintaining minimalism.",
+              "Users benefitted from the shift to flat designs, but web designers and UX researchers found that flat design had user experience issues. One example of an issue is that some users may not click a flat button if they do not recognize it as clickable. Flat design evolved into Flat Design 2.0. Instead of completely flat logos, designers started to add highlights, gradients, and drop shadows to add depth and direction, while maintaining minimalism.",
               "This eventually evolved into a new trend of Isometric Design, or flat 3D designs. Isometric designs present a three dimensional view of an object, which “combines some elements of realism from skeuomorphism with the clean, modern approach of flat design”.",
             ]}
           />
@@ -178,7 +178,7 @@ export default function Home() {
             date="2015"
             img="wrapped.jpeg"
             desc={[
-              "Spotify is one company herald for its innovative takes design and their ability to stay with the trends. In 2015, Spotify created “Wrapped” a feature for users to see their past history of statistics for the music they listened to. Spotify Wrapped would go viral in 2016 with its new animated design for Wrapped with colorful shapes and animation.",
+              "Spotify is one company herald for its innovative takes on design, and their ability to stay with the trends. In 2015, Spotify created “Wrapped” a feature for users to see their past history of statistics for the music they listened to. Spotify Wrapped would go viral in 2016 with its new animated design with colorful shapes and animation.",
             ]}
           />
           <TimelineElement
@@ -202,11 +202,11 @@ export default function Home() {
           />
           <TimelineElement
             title="Rise and Fall of Corporate Memphis"
-            date="2017"
+            date="2020"
             img="corporate.jpeg"
             desc={[
               "Corporate Memphis, also known as big tech art, is a term to describe a style of illustration associated with Big Tech companies and startups, inspired by Facebook’s Alegria.",
-              "With the rise of flat design, and vector graphics needed for websites and icons, Corporate Memphis became popular as they were simple, scalable illustrations to fill in white spaces.The colorful, friendly illustrations also combatted negative perceptions of large tech companies, who were often criticized for their monopoly and capitalistic behaviors.",
+              "With the rise of flat design, and vector graphics needed for websites and icons, Corporate Memphis became popular as they were simple, scalable illustrations to fill in white spaces. The colorful, friendly illustrations also combatted negative perceptions of large tech companies, who were often criticized for their monopoly and capitalistic behaviors.",
               "Public opinion for Corporate Memphis had changed. Because of the quick wide adoption, the design is often criticized for being overused, generic, and lazy.",
             ]}
           />
