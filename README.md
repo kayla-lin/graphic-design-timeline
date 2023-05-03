@@ -6,9 +6,7 @@ Highlighting significant events from 1990s - Present day.
 
 [![Image from Gyazo](https://i.gyazo.com/05989cf117179fa1b40819a27b6ec604.gif)](https://gyazo.com/05989cf117179fa1b40819a27b6ec604)
 
-## See deployment
-
-[https://graphic-design-timeline.vercel.app/](https://graphic-design-timeline.vercel.app/)
+[See live deployment](https://graphic-design-timeline.vercel.app/)
 
 ## Installation
 
