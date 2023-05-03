@@ -61,12 +61,19 @@ const Conclusion = () => {
             </strong>
             .
           </p>
+          <p className="bg-slate-400 bg-opacity-10 p-5 border border-gray-800">
+            The standard for design in the digital world is to look similar, due
+            to the nature of interfaces needing to be intuitive. This trend is
+            encapsulated by the popularization of Google&apos;s Material Design.
+            However, as more designs become similar, it backfires like with the
+            growing hate for Corporate Memphis style.
+          </p>
           <Link
             target="_blank"
             href="/pdf/citations.pdf"
             className="text-green-300 underline hover:text-green-500"
           >
-            Read Citations
+            See all citations
           </Link>
         </div>
 
