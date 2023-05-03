@@ -3,7 +3,7 @@ import Cartwheel from "./Cartwheel";
 
 const Hero = () => {
   return (
-    <section className="overflow-x-hidden h-screen w-screen text-white flex flex-col justify-center items-center relative gap-3">
+    <section className="w-100 overflow-hidden h-screen text-white flex flex-col justify-center items-center relative break-normal">
       <h1
         title="The Digital Revolution"
         className="text-center glitch text-xl md:text-3xl lg:text-5xl text-green-300"

@@ -49,8 +49,8 @@ const TimelineElement: FC<Props> = ({
       animate={controls}
       initial="hidden"
       variants={squareVariants}
-      className={`overflow-hidden m-5 lg:m-0 lg:w-1/2 relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
-        isEven ? "self-start lg:self-end lg:-mr-5" : "self-start lg:-ml-5"
+      className={`overflow-hidden m-5 lg:m-0 lg:w-[47%] relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
+        isEven ? "self-start lg:self-end" : "self-start"
       }`}
     >
       <span className="text-green-300">{date}</span>

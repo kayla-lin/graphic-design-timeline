@@ -8,7 +8,7 @@ interface Props {
 
 const Timeline: FC<Props> = ({ children }) => {
   return (
-    <section className="container mx-auto flex flex-col relative ">
+    <section className="container mx-auto flex flex-col relative overflow-hidden w-100">
       <svg
         height="210"
         width="500"
