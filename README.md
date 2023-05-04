@@ -2,11 +2,11 @@
 
 Highlighting significant events from 1990s - Present day.
 
+[See live deployment](https://graphic-design-timeline.vercel.app/)
+
 [![Image from Gyazo](https://i.gyazo.com/252bc1919b0ed7302066d30e250367e2.gif)](https://gyazo.com/252bc1919b0ed7302066d30e250367e2)
 
 [![Image from Gyazo](https://i.gyazo.com/05989cf117179fa1b40819a27b6ec604.gif)](https://gyazo.com/05989cf117179fa1b40819a27b6ec604)
-
-[See live deployment](https://graphic-design-timeline.vercel.app/)
 
 ## Installation
 
@@ -32,5 +32,3 @@ Run the development server
 ```
 npm run dev
 ```
-
-#
