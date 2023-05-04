@@ -21,9 +21,9 @@ const Timeline: FC<Props> = ({ children }) => {
           pathLength="0.25"
           x2="0"
           y2="100%"
-          className="stroke-gray-800 opacity-80"
+          className="stroke-gray-800 opacity-100"
           style={{
-            strokeWidth: "10",
+            strokeWidth: "2",
             height: "100%",
             vectorEffect: "non-scaling-stroke",
           }}
