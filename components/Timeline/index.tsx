@@ -18,7 +18,7 @@ const Timeline: FC<Props> = ({ children }) => {
         <line
           x1="0"
           y1="0"
-          pathLength="0.5"
+          pathLength="0.25"
           x2="0"
           y2="100%"
           className="stroke-gray-800 opacity-80"

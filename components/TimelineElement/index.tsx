@@ -49,7 +49,7 @@ const TimelineElement: FC<Props> = ({
       animate={controls}
       initial="hidden"
       variants={squareVariants}
-      className={`overflow-hidden mx-5 lg:m-0 lg:w-[40%] relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
+      className={`overflow-hidden mx-5 lg:mx-10 lg:w-[40%] relative text-white bg-slate-400 bg-opacity-10 p-5 border border-gray-800 flex flex-col gap-3 ${
         isEven ? "self-start lg:self-end" : "self-start"
       }`}
     >
